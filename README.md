@@ -6,6 +6,7 @@ Create Database name "test"
 
 
 Run npm install
+
 Run npm start
 
 Test API : POST /api/data with payload
