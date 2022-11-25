@@ -17,12 +17,12 @@ export class Device {
     @Column()
     groupId: string;
 
-    @Column()
+    @Column({ nullable: true })
     temperature: number;
 
-    @Column()
+    @Column({ nullable: true })
     humidity: number;
 
-    @Column({ default: true })
+    @Column({ nullable: true })
     occupancy: boolean;
 }
